@@ -540,6 +540,6 @@ AddCharset utf-8 .css .js .xml .json .rss .atom
 # Server-Side Includes
 # ----------------------------------------------------------------------
 AddType text/html .shtml
-AddHandler server-parsed .shtml
+AddHandler server-parsed .shtml .html
 DirectoryIndex index.shtml index.html index.htm index.php
 Options +IncludesNoExec -ExecCGI
