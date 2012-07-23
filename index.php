@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <title>Team BlueRidge</title>
-<link href="files/Dreamweaver_CSS.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+<link href="css/style.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<link rel="stylesheet" href="files/core.css" media="screen"/>
-<link rel="stylesheet" href="files/mobile.css" media="handheld, only screen and (max-device-width:480px)"/>
+<link rel="stylesheet" href="css/core.css" media="screen"/>
+<link rel="stylesheet" href="css/mobile.css" media="handheld, only screen and (max-device-width:480px)"/>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
     <span style="font-size:12px;"><br />&nbsp;</span>
   	<p id="header-text">Team BlueRidge</p>
     </div>
-  <a href="#"><img src="files/header.jpeg" alt="Team BlueRidge" width="100%" height="200" id="Insert_logo" style="background: #56A0D3; display:block;" /></a>
+  <a href="#"><img src="img/header.jpg" alt="Team BlueRidge" width="100%" height="200" id="Insert_logo" style="background: #56A0D3; display:block;" /></a>
   </div>
   <div id="header-mobile">
   <p>Team BlueRidge</p>
@@ -30,19 +30,10 @@
   <div id="social-networks">
           <!-- Place this tag where you want the +1 button to render -->
         <g:plusone annotation="none"></g:plusone>
-        
-        <!-- Place this render call where appropriate -->
-        <script type="text/javascript">
-          (function() {
-            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-            po.src = 'https://apis.google.com/js/plusone.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-          })();
-        </script>
 		<!--Facebook-->
-        <a href="https://www.facebook.com/TeamBlueridge"><img src="files/facebook-icon.png" width="24px" /></a>
+        <a href="https://www.facebook.com/TeamBlueridge"><img src="img/facebook-icon.png" width="24px" /></a>
         <!--Blog-->
-        <a href="/blog/"><img src="files/feed-icon.png" width="24" /></a>
+        <a href="/blog/"><img src="img/feed-icon.png" width="24" /></a>
   </div>
   	<div id="mobile-nav">
       <p><a href="/">Home</a> | <a href="donations.html">Donate</a> | <a href="the-team.html">The Team</a> | <a href="/blog/">Blog</a> | <a href="/forum/">Forum</a> | <a href="/wiki/">Wiki</a></p>
@@ -81,7 +72,7 @@
   </article>
   <aside>
     <h3>News</h3>
-	<?php include('aside-news.html'); ?>
+	<?php include('includes/aside-news.ssi'); ?>
   </aside>
   <footer>
     <p id="footer-nav"><a href="/">Home</a> | <a href="donations.html">Donate</a> | <a href="the-team.html">The Team</a> | <a href="/blog/">Blog</a> | <a href="/forum/">Forum</a> | <a href="/wiki/">Wiki</a></p>
@@ -93,6 +84,14 @@
       </div>
     </address>
   </footer>
+  <!-- Place this render call where appropriate -->
+        <script type="text/javascript">
+          (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+          })();
+        </script>
   <!-- end .container --></div>
 </body>
 </html>
