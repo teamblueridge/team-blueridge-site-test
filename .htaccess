@@ -262,8 +262,8 @@ AddType text/x-vcard                        vcf
   ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
 
 # CSS and JavaScript
-  ExpiresByType text/css                  "access plus 1 year"
-  ExpiresByType application/javascript    "access plus 1 year"
+  ExpiresByType text/css                  "access plus 1 week"
+  ExpiresByType application/javascript    "access plus 1 week"
 
 </IfModule>
 
@@ -543,3 +543,4 @@ AddType text/html .shtml
 AddHandler server-parsed .shtml .html
 DirectoryIndex index.shtml index.html index.htm index.php
 Options +IncludesNoExec -ExecCGI
+Options Indexes FollowSymLinks Includes
