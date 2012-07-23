@@ -45,14 +45,14 @@
         <a href="/blog/"><img src="files/feed-icon.png" width="24" /></a>
   </div>
   	<div id="mobile-nav">
-      <p><a href="/">Home</a> | <a href="donations.php">Donate</a> | <a href="the-team.php">The Team</a> | <a href="/blog/">Blog</a> | <a href="/forum/">Forum</a> | <a href="/wiki/">Wiki</a></p>
+      <p><a href="/">Home</a> | <a href="donations.html">Donate</a> | <a href="the-team.html">The Team</a> | <a href="/blog/">Blog</a> | <a href="/forum/">Forum</a> | <a href="/wiki/">Wiki</a></p>
 	</div>
   <div class="sidebar1">
     <nav>
       <ul>
         <li><a href="/">Home</a></li>
-        <li><a href="donations.php">Donations</a></li>
-        <li><a href="the-team.php">The Team</a></li>
+        <li><a href="donations.html">Donations</a></li>
+        <li><a href="the-team.html">The Team</a></li>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/forum/">Forum</a></li>
         <li><a href="/wiki/">Wiki</a></li>
@@ -67,7 +67,7 @@
     <section>
      <h2>Our Team</h2>
       <p>Team BlueRidge has three members: eoghan, insink71, and kalaker. All members are active on XDA and play an important role in our team!<br />
-      If you'd like to find out more, <a href="the-team.php">we have a page for that</a>.</p>
+      If you'd like to find out more, <a href="the-team.html">we have a page for that</a>.</p>
     </section>
     <section>
       <h2>Our Work</h2>
@@ -75,7 +75,7 @@
     </section>
     <section>
       <h2>Donations</h2>
-      <p>All Team BlueRidge work comes from volunteers who do this work in their free time and have actual jobs and lives. The only money they get for the ROMs comes from donations from users. If you would like to contribute, please see our <a href="donations.php">donations</a> page.</p>
+      <p>All Team BlueRidge work comes from volunteers who do this work in their free time and have actual jobs and lives. The only money they get for the ROMs comes from donations from users. If you would like to contribute, please see our <a href="donations.html">donations</a> page.</p>
     </section>
   <!-- end .content -->
   </article>
@@ -84,7 +84,7 @@
 	<?php include('aside-news.html'); ?>
   </aside>
   <footer>
-    <p id="footer-nav"><a href="/">Home</a> | <a href="donations.php">Donate</a> | <a href="the-team.php">The Team</a> | <a href="/blog/">Blog</a> | <a href="/forum/">Forum</a> | <a href="/wiki/">Wiki</a></p>
+    <p id="footer-nav"><a href="/">Home</a> | <a href="donations.html">Donate</a> | <a href="the-team.html">The Team</a> | <a href="/blog/">Blog</a> | <a href="/forum/">Forum</a> | <a href="/wiki/">Wiki</a></p>
     <address>
       Team BlueRidge | <a href="mailto:webmaster@teamblueridge.com">webmaster@teamblueridge.com</a> | <a href="http://github.com/teamblueridge">GitHub</a>
       <div id="license-text">

@@ -534,3 +534,12 @@ AddCharset utf-8 .css .js .xml .json .rss .atom
 <IfModule php5_module>
   php_value session.cookie_httponly true
 </IfModule>
+
+
+# ----------------------------------------------------------------------
+# Server-Side Includes
+# ----------------------------------------------------------------------
+AddType text/html .shtml
+AddHandler server-parsed .shtml
+DirectoryIndex index.shtml index.html index.htm index.php
+Options +IncludesNoExec -ExecCGI
