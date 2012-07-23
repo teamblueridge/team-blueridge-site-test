@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	text-align:center;
+	font-size:36px;
+}
+#news {
+	display:none;
+}
+aside {
+	display:none;
+}
+#header-nonmobile {
+	display:none;
+}
+#header-mobile{
+	display:block;
+	color:#FFFFFF;
+	font-size:72px;
+	text-align:center;
+}
+.content {
+	width:100%;
+}
+.sidebar1 {
+	display:none;
+}
+nav {
+	display:none;
+}
+#license-text {
+	display:none;
+}
+h1, h2, h3, h4 {
+	text-align:center;
+}
+section {
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#footer-nav {
+	display:none;
+}
+#mobile-nav {
+	display:block;
+	width:100%;
+	background-color:#003366;
+	font-size:44px;
+	text-align:center;
+}
+#mobile-nav a:link {
+	color: #FFFFFF;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+#mobile-nav a:visited {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+#mobile-nav a:hover, #mobile-nav a:active, #mobile-nav a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
