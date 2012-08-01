@@ -35,7 +35,7 @@
     <div id="social-networks">
         <!-- Google + -->
         <g:plusone annotation="none"></g:plusone>
-         <!-- Google+ JS -->
+        <!-- Google+ JS -->
 		<script type="text/javascript">
           (function() {
             var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
@@ -50,7 +50,7 @@
 	</div>
     <img src="img/header.jpg" width="100%" height="298" alt="Team Blueridge: Header" usemap="#header" />
     <map name="header">
-     <area shape="rect" coords="1000,285,760,298" alt="Pisgah in Violet Mist ©2012 Jeff Pittman Art" href="http://jeffpittmanart.com" />
+     <area shape="rect" coords="1000,285,760,298" alt="Pisgah in Violet Mist &#169;2012 Jeff Pittman Art" href="http://jeffpittmanart.com" />
     </map>
    </div>
    <div id="header-mobile">
@@ -113,11 +113,11 @@
     <p id="footer-nav"><a href="/">Home</a> | <a href="donations.php">Donate</a> | <a href="the-team.php">The Team</a> | <a href="/blog/">Blog</a> | <a href="/forum/">Forum</a> | <a href="/wiki/">Wiki</a></p>
     <address>
       Team BlueRidge | <a href="mailto:webmaster@teamblueridge.com">webmaster@teamblueridge.com</a> | <a href="http://github.com/teamblueridge">GitHub</a>
+    </address>
       <div id="license-text">
        <br />&nbsp;<br />
        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
       </div>
-    </address>
    </footer>
    <!-- Place this render call where appropriate -->
    <script type="text/javascript">
