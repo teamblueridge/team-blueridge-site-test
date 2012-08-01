@@ -11,45 +11,47 @@
  </head>
  <body>
   <div class="container">
-   <header>
-    <div id="header-nonmobile">
-     <div id="header-stuff">
-      <span style="font-size:12px;"><br />&nbsp;</span>
-      <p id="header-text">Team BlueRidge</p>
-      <div id="social-networks">
-       <table>
-        <tr>
-         <td>
-          <button>
-           <!-- Place this tag where you want the +1 button to render -->
-           <g:plusone annotation="none"></g:plusone>
-          </button>
-         </td>        
-         <td>
-          <button>
-	   <!--Facebook-->
-           <a href="https://www.facebook.com/TeamBlueridge"><img src="img/facebook-icon.png" width="24px" /></a>
-          </button>
-         </td>
-         <td>
-          <button>
-           <!--Blog-->
-           <a href="/blog/"><img src="img/feed-icon.png" width="24" /></a>
-          </button>
-         </td>
-        </tr>
-       </table>
-      </div>
-     </div>
-     <img src="img/header.jpg" width="100%" height="298" alt="Team Blueridge: Header" usemap="#header" />
-     <map name="header">
-      <area shape="rect" coords="1000,285,760,298" alt="Pisgah in Violet Mist ©2012 Jeff Pittman Art" href="http://jeffpittmanart.com" />
-     </map>
+  <header>
+   <div id="header-nonmobile">
+    <div id="header-stuff">
+     <span style="font-size:12px;"><br />&nbsp;</span>
+     <p id="header-text">Team BlueRidge</p>
     </div>
-    <div id="header-mobile">
-     <p>Team BlueRidge</p>
-    </div>
-   </header>
+    <div id="social-networks">
+        <table>
+            <tr>
+                <td>
+                    <!-- Google + -->
+                    <g:plusone annotation="none"></g:plusone>
+                    <!-- Google+ JS -->
+                    <script type="text/javascript">
+                      (function() {
+                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                        po.src = 'https://apis.google.com/js/plusone.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                      })();
+                    </script>
+                </td>
+                <td>
+                    <!--Facebook-->
+                    <a href="https://www.facebook.com/TeamBlueridge"><img src="img/facebook-icon.png" width="24px" /></a>
+                </td>
+                <td>
+                    <!--Blog-->
+                    <a href="/blog/"><img src="img/feed-icon.png" width="24" /></a>
+                </td>
+            </tr>
+        </table>
+	</div>
+    <img src="img/header.jpg" width="100%" height="298" alt="Team Blueridge: Header" usemap="#header" />
+    <map name="header">
+     <area shape="rect" coords="1000,285,760,298" alt="Pisgah in Violet Mist &#169;2012 Jeff Pittman Art" href="http://jeffpittmanart.com" />
+    </map>
+   </div>
+   <div id="header-mobile">
+    <p>Team BlueRidge</p>
+   </div>
+  </header>
    <div id="mobile-nav">
     <p><a href="/">Home</a> | <a href="donations.php">Donate</a> | <a href="the-team.php">The Team</a> | <a href="/blog/">Blog</a> | <a href="/forum/">Forum</a> | <a href="/wiki/">Wiki</a></p>
    </div>
