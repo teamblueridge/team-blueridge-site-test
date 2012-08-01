@@ -36,9 +36,9 @@
             <g:plusone annotation="none"></g:plusone>
             
             <!--Facebook-->
-            <a href="https://www.facebook.com/TeamBlueridge"><img src="files/facebook-icon.png" width="24px" /></a>
+            <a href="https://www.facebook.com/TeamBlueridge"><img src="img/facebook-icon.png" width="24px" /></a>
             <!--Blog-->
-            <a href="/blog/"><img src="files/feed-icon.png" width="24" /></a>
+            <a href="/blog/"><img src="img/feed-icon.png" width="24" /></a>
       </div>
     </div>
     <img src="img/header.jpg" width="100%" height="298" alt="Team Blueridge: Header" usemap="#header" />
