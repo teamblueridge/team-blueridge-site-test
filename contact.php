@@ -25,14 +25,6 @@
                 <td>
                     <!-- Google + -->
                     <g:plusone annotation="none"></g:plusone>
-                    <!-- Google+ JS -->
-                    <script type="text/javascript">
-                      (function() {
-                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                        po.src = 'https://apis.google.com/js/plusone.js';
-                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                      })();
-                    </script>
                 </td>
                 <td>
                     <!--Facebook-->
@@ -117,5 +109,13 @@
     </address>
   </footer>
   <!-- end .container --></div>
+<!-- Google+ JS -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
 </body>
 </html>
