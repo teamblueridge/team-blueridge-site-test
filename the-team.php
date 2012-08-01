@@ -31,16 +31,16 @@
     <div id="header-stuff">
      <span style="font-size:12px;"><br />&nbsp;</span>
      <p id="header-text">Team BlueRidge</p>
-      <div id="social-networks">
-            <!-- Google + -->
-            <g:plusone annotation="none"></g:plusone>
-            
-            <!--Facebook-->
-            <a href="https://www.facebook.com/TeamBlueridge"><img src="img/facebook-icon.png" width="24px" /></a>
-            <!--Blog-->
-            <a href="/blog/"><img src="img/feed-icon.png" width="24" /></a>
-      </div>
     </div>
+    <div id="social-networks">
+        <!-- Google + -->
+        <g:plusone annotation="none"></g:plusone>
+        
+        <!--Facebook-->
+        <a href="https://www.facebook.com/TeamBlueridge"><img src="img/facebook-icon.png" width="24px" /></a>
+        <!--Blog-->
+        <a href="/blog/"><img src="img/feed-icon.png" width="24" /></a>
+	</div>
     <img src="img/header.jpg" width="100%" height="298" alt="Team Blueridge: Header" usemap="#header" />
     <map name="header">
      <area shape="rect" coords="1000,285,760,298" alt="Pisgah in Violet Mist ©2012 Jeff Pittman Art" href="http://jeffpittmanart.com" />
