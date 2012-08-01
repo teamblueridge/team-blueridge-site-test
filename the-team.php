@@ -31,30 +31,15 @@
     <div id="header-stuff">
      <span style="font-size:12px;"><br />&nbsp;</span>
      <p id="header-text">Team BlueRidge</p>
-     <div id="social-networks">
-      <table>
-       <tr>
-        <td>
-         <button>
-          <!-- Place this tag where you want the +1 button to render -->
-          <g:plusone annotation="none"></g:plusone>
-         </button>
-        </td>        
-        <td>
-         <button>
-          <!--Facebook-->
-          <a href="https://www.facebook.com/TeamBlueridge"><img src="img/facebook-icon.png" width="24px" /></a>
-         </button>
-        </td>
-        <td>
-         <button>
-          <!--Blog-->
-          <a href="/blog/"><img src="img/feed-icon.png" width="24" /></a>
-         </button>
-        </td>
-       </tr>
-      </table>
-     </div>
+      <div id="social-networks">
+              <!-- Google + -->
+            <g:plusone annotation="none"></g:plusone>
+            
+            <!--Facebook-->
+            <a href="https://www.facebook.com/TeamBlueridge"><img src="files/facebook-icon.png" width="24px" /></a>
+            <!--Blog-->
+            <a href="/blog/"><img src="files/feed-icon.png" width="24" /></a>
+      </div>
     </div>
     <img src="img/header.jpg" width="100%" height="298" alt="Team Blueridge: Header" usemap="#header" />
     <map name="header">
@@ -137,5 +122,14 @@
    </script>
    <!-- end .container -->
  </div>
+ <!-- Google+ JS -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
 </body>
 </html>
