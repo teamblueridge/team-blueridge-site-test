@@ -33,6 +33,7 @@
 <body>
   <!-- Prompt IE 6 & 7 users to upgrade their browser -->
   <!--[if lt IE 8]> <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'> <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div> <![endif]-->
+<div class="container">
   <header>
    <div id="header-nonmobile">
     <div id="header-stuff">
@@ -45,6 +46,7 @@
                 <td>
                     <!-- Google + -->
                     <g:plusone annotation="none"></g:plusone>
+                    <!-- Google+ JS -->
                 </td>
                 <td>
                     <!--Facebook-->
@@ -66,6 +68,8 @@
     <p>Team BlueRidge</p>
    </div>
   </header>
+  <div role="main">
+
   	<div id="mobile-nav">
       <p><a href="/">Home</a> | <a href="donations.php">Donate</a> | <a href="the-team.php">The Team</a> | <a href="/blog/">Blog</a> | <a href="/forum/">Forum</a> | <a href="/wiki/">Wiki</a></p>
 	</div>
@@ -117,14 +121,14 @@
   </footer>
 
   <!-- JavaScript at the bottom for fast page loading -->
-    <!-- Google+ JS -->
-    <script type="text/javascript">
-      (function() {
-        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-        po.src = 'https://apis.google.com/js/plusone.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-      })();
-    </script>
+        <!-- Google+ JS -->
+        <script type="text/javascript">
+          (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+          })();
+        </script>
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
@@ -142,5 +146,7 @@
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
+  </div>
+  </div>
 </body>
 </html>
