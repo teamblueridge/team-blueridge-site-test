@@ -32,7 +32,7 @@
      <span style="font-size:12px;"><br />&nbsp;</span>
      <p id="header-text">Team BlueRidge</p>
       <div id="social-networks">
-              <!-- Google + -->
+            <!-- Google + -->
             <g:plusone annotation="none"></g:plusone>
             
             <!--Facebook-->
