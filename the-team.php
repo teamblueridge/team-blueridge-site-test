@@ -33,20 +33,30 @@
      <p id="header-text">Team BlueRidge</p>
     </div>
     <div id="social-networks">
-        <!-- Google + -->
-        <g:plusone annotation="none"></g:plusone>
-        <!-- Google+ JS -->
-		<script type="text/javascript">
-          (function() {
-            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-            po.src = 'https://apis.google.com/js/plusone.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-          })();
-        </script>
-        <!--Facebook-->
-        <a href="https://www.facebook.com/TeamBlueridge"><img src="img/facebook-icon.png" width="24px" /></a>
-        <!--Blog-->
-        <a href="/blog/"><img src="img/feed-icon.png" width="24" /></a>
+        <table>
+            <tr>
+                <td>
+                    <!-- Google + -->
+                    <g:plusone annotation="none"></g:plusone>
+                    <!-- Google+ JS -->
+                    <script type="text/javascript">
+                      (function() {
+                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                        po.src = 'https://apis.google.com/js/plusone.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                      })();
+                    </script>
+                </td>
+                <td>
+                    <!--Facebook-->
+                    <a href="https://www.facebook.com/TeamBlueridge"><img src="img/facebook-icon.png" width="24px" /></a>
+                </td>
+                <td>
+                    <!--Blog-->
+                    <a href="/blog/"><img src="img/feed-icon.png" width="24" /></a>
+                </td>
+            </tr>
+        </table>
 	</div>
     <img src="img/header.jpg" width="100%" height="298" alt="Team Blueridge: Header" usemap="#header" />
     <map name="header">

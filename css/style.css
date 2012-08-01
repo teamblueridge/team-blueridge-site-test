@@ -419,6 +419,7 @@ footer {
 	top:0;
 	margin-left:860px;
 	padding:0 0 0 0;
+	height:24px;
 }
 
 /*HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
