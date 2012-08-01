@@ -103,7 +103,7 @@
   </article>
   <aside>
     <h3>News</h3>
-    <?php include('/includes/aside-news.html'); ?>
+    <?php include('includes/aside-news.html'); ?>
   </aside>
   <footer>
     <p id="footer-nav"><a href="/">Home</a> | <a href="donations.php">Donate</a> | <a href="the-team.php">The Team</a> | <a href="/blog/">Blog</a> | <a href="/forum/">Forum</a> | <a href="/wiki/">Wiki</a></p>

@@ -107,7 +107,7 @@
         </tr>
         <tr>
           <td class="name">simonsimons34</td>
-          <td class="title"><strong><em>(on hiatus)</em></strong></td>
+          <td class="title"><strong><em>Founder, Developer</em></strong></td>
         </tr>
        </table>
     </section>
