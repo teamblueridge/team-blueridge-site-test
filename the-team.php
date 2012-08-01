@@ -50,6 +50,15 @@
     <p>Team BlueRidge</p>
    </div>
   </header>
+    <div id="social-networks">
+        <!-- Google + -->
+        <g:plusone annotation="none"></g:plusone>
+        
+        <!--Facebook-->
+        <a href="https://www.facebook.com/TeamBlueridge"><img src="img/facebook-icon.png" width="24px" /></a>
+        <!--Blog-->
+        <a href="/blog/"><img src="img/feed-icon.png" width="24" /></a>
+	</div>
    <div id="mobile-nav">
     <p><a href="/">Home</a> | <a href="donations.php">Donate</a> | <a href="the-team.php">The Team</a> | <a href="/blog/">Blog</a> | <a href="/forum/">Forum</a> | <a href="/wiki/">Wiki</a></p>
    </div>
