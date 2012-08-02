@@ -351,6 +351,7 @@ header {
 	background: #007FFF;
 	padding-bottom: 10px;
 	height:100%;
+	display:block;
 }
 .content {
 	padding: 10px 0;
@@ -363,6 +364,7 @@ aside {
 	background: #007FFF;
 	padding: 10px 0;
 	height:100%;
+	display:block;
 }
 
 /* ~~ This grouped selector gives the lists in the .content area space ~~ */
